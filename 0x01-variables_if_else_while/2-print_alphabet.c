@@ -1,13 +1,18 @@
-int ft_putchar(char c);
-
-void ft_print_alphabet(void)
+#include <stdio.h>
+/**
+ * main - prints the alphabet in lowercase.
+(*
+ * Return: 0 on success
+ */
+int main(void)
 {
-	int i;
+	char c = 'a';
 
-	i = 'a';
-	while (i <= 'z')
+	while (c <= 'z')
 	{
-		ft_putchar(i);
-		i++;
+		putchar(c);
+		c++;
 	}
+	putchar('\n');
+	return (0);
 }
