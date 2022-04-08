@@ -4,14 +4,16 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int ft_putchar(char c);
+
+void ft_print_alphabet(void)
 {
+	int i;
 
-	int c;
-
-	for (c = 'a'; c <= 26; ++c)
-		putchar('a' + c);
-		putchar('\n');
-
-return (0);
+	i = 'a';
+	while (i <= 'z')
+	{
+		ft_putchar(i);
+		i++;
+	}
 }
