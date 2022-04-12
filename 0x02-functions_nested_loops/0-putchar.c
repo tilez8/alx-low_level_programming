@@ -1,11 +1,17 @@
-#include "alxt.h"
+#include "holberton.h"
+
+/**
+* main - Print the word "Holberton"
+*
+* Return: Always 0 (Success)
+*/
 
 int main(void)
 {
 	int i;
-	char p[] = "ALXT";
+	char p[] = "Holberton";
 
-	for (i = 0; i < 4; i++)
+	for (i = 0; i < 9; i++)
 		{
 		_putchar(p[i]);
 		}
