@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  *_isalpha(int c)  checks for alphabetic character.
- *
  * Return: Always 0.
  */
 int _isalpha(int c)
