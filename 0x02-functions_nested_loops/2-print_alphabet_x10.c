@@ -4,7 +4,7 @@
  *
  * Return: Always 0.
  */
-void main (void)
+void main(void)
 {
 int i;
 char c;
